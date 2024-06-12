@@ -15,13 +15,36 @@
     </header>
 
     <main class="container my-4">
-        <div id="userDetails" class="row g-4 mb-5">
-            
+        <div class="card my-4">
+            <div class="card-body">
+                <form action="" >
+                    <div class="row">
+                        <div class="col-md">
+                            <div class="my-3">
+                                <input type="text" class="form-control" id="firstName" required placeholder="First Name">
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="my-3">
+                                <input type="text" class="form-control" id="lastName" required placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="my-3">
+                                <input type="email" class="form-control" id="txtEmail" required placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <button id="btnAdd" class="btn my-3" type="submit">➕ Ekle</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
         </div>
-        
+        <div id="userDetails" class="row g-4 mb-5">
+        </div>
         <div id="lstUsers" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
-
-
         </div>
     </main>
 

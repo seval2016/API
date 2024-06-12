@@ -81,6 +81,8 @@ lstUsers.addEventListener("click", async (e) => {
 
 lstUsers.addEventListener("click", async (e) => {
   if (e.target.classList.contains("btn-del")) {
+    const res=confirm("Are you sure to delete");
+    if(!res) return;
     const userId = e.target.dataset.id;
     console.log(`Deleting user with ID: ${userId}`);
 
