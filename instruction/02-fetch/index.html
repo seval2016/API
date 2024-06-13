@@ -17,7 +17,7 @@
     <main class="container my-4">
         <div class="card my-4">
             <div class="card-body">
-                <form action="" >
+                <form action="" id="frmUser" data-method="create" data-id="">
                     <div class="row">
                         <div class="col-md">
                             <div class="my-3">
@@ -31,11 +31,12 @@
                         </div>
                         <div class="col-md">
                             <div class="my-3">
-                                <input type="email" class="form-control" id="txtEmail" required placeholder="Email">
+                                <input type="email" class="form-control" id="email" required placeholder="Email">
                             </div>
                         </div>
                         <div class="col-md">
-                            <button id="btnAdd" class="btn my-3" type="submit">➕ Ekle</button>
+                            <button class="btn btn-warning my-3" type="submit" id="btnSubmit">➕ Add</button>
+                           
                         </div>
                     </div>
                 </form>
